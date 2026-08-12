@@ -44,7 +44,7 @@ distancia_naranja = math.sqrt(
 distancia_melon = math.sqrt(
     (fruta_usuario[0] - melon [0])**2 +
     (fruta_usuario[1] - melon [1])**2 +
-    (fruta_usuario[2] - melon [2])**
+    (fruta_usuario[2] - melon [2])**2
 )
 # Mostramos las distancias
 st.subheader("Distancias")
